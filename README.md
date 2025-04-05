@@ -1,46 +1,80 @@
-# Getting Started with Create React App
+# True-Blue Living Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application for assessing and promoting healthy lifestyle habits among employees. The quiz evaluates three key aspects of well-being: Physical, Emotional, and Psychological.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- User-friendly interface with Material-UI components
+- Three-section quiz with multiple-choice questions
+- Real-time scoring and feedback
+- Personalized tips based on quiz results
+- Leaderboard to track team and department scores
+- Responsive design for all devices
 
-### `npm start`
+## Access Points
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. QR codes at specific locations
+2. Internal Email Communication via Group PR
+3. WhatsApp via HR Comms Group
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Quiz Structure
 
-### `npm test`
+- Format: Multiple-choice or Likert scale
+- Scoring: Each question worth up to 5 points
+- Duration: ~5 minutes
+- Sections: Physical, Emotional, Psychological (25 points each)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Scoring System
 
-### `npm run build`
+- Physical Well-being: Max 25 points
+- Emotional Well-being: Max 25 points
+- Psychological Well-being: Max 25 points
+- Total Score: Max 75 points
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Feedback Categories
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 60-75: Thriving
+- 45-59: Doing Well
+- Below 45: Needs Improvement
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm start
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The application will be available at `http://localhost:3000`
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React
+- TypeScript
+- Material-UI
+- Formik
+- Yup
+- React Router
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License. 
